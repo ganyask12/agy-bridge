@@ -1,0 +1,21 @@
+{
+  "name": "agy-bridge",
+  "version": "0.1.0",
+  "description": "MCP server that lets Claude delegate tasks to the Antigravity CLI (agy)",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "agy-bridge": "src/server.mjs"
+  },
+  "scripts": {
+    "start": "node src/server.mjs",
+    "test": "node --test test/bridge.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "zod": "^4.6.7"
+  }
+}

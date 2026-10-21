@@ -1,0 +1,18 @@
+{
+  "tiers": {
+    "fast": "gemini-3.8-flash-low",
+    "balanced": "gemini-3.8-flash-medium",
+    "deep": "gemini-3.8-flash-high"
+  },
+  "default_target": "cli",
+  "app_project": null,
+  "app_tiers": { "fast": "flash", "balanced": "flash", "deep": "pro" },
+  "sync_to_app": false,
+  "export_markdown": true,
+  "export_dir": null,
+  "default_timeout_s": 600,
+  "handoff_threshold_tokens": 150000,
+  "max_inline_prompt_chars": 20000,
+  "approved_command_timeout_s": 120,
+  "approved_output_tail_chars": 4000
+}

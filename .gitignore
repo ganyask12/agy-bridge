@@ -1,0 +1,4 @@
+node_modules/
+.claude/
+apktool_mcp_server_workspace/
+*.log
